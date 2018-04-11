@@ -6,13 +6,14 @@ import { StatusBar } from '@ionic-native/status-bar';
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
-import { ProgressBarPage } from '../pages/progress-bar/progress-bar';
+//import { ProgressBarPage } from '../pages/progress-bar/progress-bar';
+import { ProgrssBarComponent } from '../components/progrss-bar/progrss-bar';
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
-    ProgressBarPage
+    ProgrssBarComponent
   ],
   imports: [
     BrowserModule,
@@ -22,7 +23,7 @@ import { ProgressBarPage } from '../pages/progress-bar/progress-bar';
   entryComponents: [
     MyApp,
     HomePage,
-    ProgressBarPage
+  
   ],
   providers: [
     StatusBar,
